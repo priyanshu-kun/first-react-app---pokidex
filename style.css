@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-heading {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 30px;
+    grid-gap: 30px;
+    overflow: hidden;
+}
+
+.card {
+    background: rgb(255, 153, 0,0.1);
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: -0.3em 0 3em rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information {
+    width: 100%;
+    text-align: center;
+    /* background: red; */
+    margin-top: 20px;
+}
